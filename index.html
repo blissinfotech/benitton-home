@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Plumber</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 14px;
+            color: #666666;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0 0 20px 0;
+            font-size: 14px;
+            color: #666666;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        input[type="file"] {
+            padding: 0;
+        }
+        button {
+            padding: 10px;
+            border: none;
+            background-color: #333333;
+            color: white;
+            font-size: 14px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>REQUEST A PLUMBER</h1>
+        <p>Please add your details. Our experts will reach out to you soon. Extra charges may apply.</p>
+        <ul>
+            <li>Best all time service</li>
+            <li>Expert plumbers</li>
+            <li>Genuine servicing & parts</li>
+            <li>100% satisfaction</li>
+        </ul>
+        <form>
+            <input type="text" placeholder="Your full name" required>
+            <input type="text" placeholder="Contact number" required>
+            <textarea placeholder="Complete address" required></textarea>
+            <p>Please upload the image of the defective region & product. Ignore for installation purpose.</p>
+            <input type="file" required>
+            <button type="submit">SUBMIT REQUEST</button>
+        </form>
+    </div>
+</body>
+</html>
